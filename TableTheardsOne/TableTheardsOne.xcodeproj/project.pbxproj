@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACDF6B3C174C781E0070DC9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDF6B3B174C781E0070DC9B /* UIKit.framework */; };
+		ACDF6B3E174C781E0070DC9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDF6B3D174C781E0070DC9B /* Foundation.framework */; };
+		ACDF6B40174C781E0070DC9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDF6B3F174C781E0070DC9B /* CoreGraphics.framework */; };
+		ACDF6B46174C781E0070DC9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACDF6B44174C781E0070DC9B /* InfoPlist.strings */; };
+		ACDF6B48174C781E0070DC9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDF6B47174C781E0070DC9B /* main.m */; };
+		ACDF6B4C174C781E0070DC9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDF6B4B174C781E0070DC9B /* AppDelegate.m */; };
+		ACDF6B4E174C781E0070DC9B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDF6B4D174C781E0070DC9B /* Default.png */; };
+		ACDF6B50174C781E0070DC9B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDF6B4F174C781E0070DC9B /* Default@2x.png */; };
+		ACDF6B52174C781E0070DC9B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDF6B51174C781E0070DC9B /* Default-568h@2x.png */; };
+		ACDF6B5A174C789A0070DC9B /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDF6B59174C789A0070DC9B /* ListViewController.m */; };
+		ACDF6B5C174C78C20070DC9B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDF6B5B174C78C20070DC9B /* CoreImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACDF6B38174C781E0070DC9B /* TableTheardsOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableTheardsOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDF6B3B174C781E0070DC9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACDF6B3D174C781E0070DC9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACDF6B3F174C781E0070DC9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACDF6B43174C781E0070DC9B /* TableTheardsOne-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableTheardsOne-Info.plist"; sourceTree = "<group>"; };
+		ACDF6B45174C781E0070DC9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACDF6B47174C781E0070DC9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACDF6B49174C781E0070DC9B /* TableTheardsOne-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableTheardsOne-Prefix.pch"; sourceTree = "<group>"; };
+		ACDF6B4A174C781E0070DC9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACDF6B4B174C781E0070DC9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACDF6B4D174C781E0070DC9B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ACDF6B4F174C781E0070DC9B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ACDF6B51174C781E0070DC9B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ACDF6B58174C789A0070DC9B /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		ACDF6B59174C789A0070DC9B /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		ACDF6B5B174C78C20070DC9B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDF6B35174C781E0070DC9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDF6B5C174C78C20070DC9B /* CoreImage.framework in Frameworks */,
+				ACDF6B3C174C781E0070DC9B /* UIKit.framework in Frameworks */,
+				ACDF6B3E174C781E0070DC9B /* Foundation.framework in Frameworks */,
+				ACDF6B40174C781E0070DC9B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACDF6B2F174C781E0070DC9B = {
+			isa = PBXGroup;
+			children = (
+				ACDF6B41174C781E0070DC9B /* TableTheardsOne */,
+				ACDF6B3A174C781E0070DC9B /* Frameworks */,
+				ACDF6B39174C781E0070DC9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACDF6B39174C781E0070DC9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACDF6B38174C781E0070DC9B /* TableTheardsOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDF6B3A174C781E0070DC9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACDF6B5B174C78C20070DC9B /* CoreImage.framework */,
+				ACDF6B3B174C781E0070DC9B /* UIKit.framework */,
+				ACDF6B3D174C781E0070DC9B /* Foundation.framework */,
+				ACDF6B3F174C781E0070DC9B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACDF6B41174C781E0070DC9B /* TableTheardsOne */ = {
+			isa = PBXGroup;
+			children = (
+				ACDF6B4A174C781E0070DC9B /* AppDelegate.h */,
+				ACDF6B4B174C781E0070DC9B /* AppDelegate.m */,
+				ACDF6B58174C789A0070DC9B /* ListViewController.h */,
+				ACDF6B59174C789A0070DC9B /* ListViewController.m */,
+				ACDF6B42174C781E0070DC9B /* Supporting Files */,
+			);
+			path = TableTheardsOne;
+			sourceTree = "<group>";
+		};
+		ACDF6B42174C781E0070DC9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACDF6B43174C781E0070DC9B /* TableTheardsOne-Info.plist */,
+				ACDF6B44174C781E0070DC9B /* InfoPlist.strings */,
+				ACDF6B47174C781E0070DC9B /* main.m */,
+				ACDF6B49174C781E0070DC9B /* TableTheardsOne-Prefix.pch */,
+				ACDF6B4D174C781E0070DC9B /* Default.png */,
+				ACDF6B4F174C781E0070DC9B /* Default@2x.png */,
+				ACDF6B51174C781E0070DC9B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACDF6B37174C781E0070DC9B /* TableTheardsOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDF6B55174C781E0070DC9B /* Build configuration list for PBXNativeTarget "TableTheardsOne" */;
+			buildPhases = (
+				ACDF6B34174C781E0070DC9B /* Sources */,
+				ACDF6B35174C781E0070DC9B /* Frameworks */,
+				ACDF6B36174C781E0070DC9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableTheardsOne;
+			productName = TableTheardsOne;
+			productReference = ACDF6B38174C781E0070DC9B /* TableTheardsOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACDF6B30174C781E0070DC9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ssn;
+			};
+			buildConfigurationList = ACDF6B33174C781E0070DC9B /* Build configuration list for PBXProject "TableTheardsOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACDF6B2F174C781E0070DC9B;
+			productRefGroup = ACDF6B39174C781E0070DC9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACDF6B37174C781E0070DC9B /* TableTheardsOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDF6B36174C781E0070DC9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDF6B46174C781E0070DC9B /* InfoPlist.strings in Resources */,
+				ACDF6B4E174C781E0070DC9B /* Default.png in Resources */,
+				ACDF6B50174C781E0070DC9B /* Default@2x.png in Resources */,
+				ACDF6B52174C781E0070DC9B /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACDF6B34174C781E0070DC9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDF6B48174C781E0070DC9B /* main.m in Sources */,
+				ACDF6B4C174C781E0070DC9B /* AppDelegate.m in Sources */,
+				ACDF6B5A174C789A0070DC9B /* ListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACDF6B44174C781E0070DC9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDF6B45174C781E0070DC9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACDF6B53174C781E0070DC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACDF6B54174C781E0070DC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDF6B56174C781E0070DC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableTheardsOne/TableTheardsOne-Prefix.pch";
+				INFOPLIST_FILE = "TableTheardsOne/TableTheardsOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACDF6B57174C781E0070DC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableTheardsOne/TableTheardsOne-Prefix.pch";
+				INFOPLIST_FILE = "TableTheardsOne/TableTheardsOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACDF6B33174C781E0070DC9B /* Build configuration list for PBXProject "TableTheardsOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDF6B53174C781E0070DC9B /* Debug */,
+				ACDF6B54174C781E0070DC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDF6B55174C781E0070DC9B /* Build configuration list for PBXNativeTarget "TableTheardsOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDF6B56174C781E0070DC9B /* Debug */,
+				ACDF6B57174C781E0070DC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACDF6B30174C781E0070DC9B /* Project object */;
+}
